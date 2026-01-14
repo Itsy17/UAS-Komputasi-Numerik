@@ -10,29 +10,37 @@
       font-family: 'Segoe UI', sans-serif;
       background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center fixed;
       background-size: cover;
-      color: white;
+      color: black; /* Semua teks default hitam */
     }
 
     .container {
       max-width: 400px;
       margin: 80px auto;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.8); /* lebih terang agar teks hitam jelas */
       padding: 30px;
       border-radius: 15px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);
-      backdrop-filter: blur(8px);
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    .identitas {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: black;
     }
 
     h2 {
       text-align: center;
       margin-bottom: 20px;
-      color: #fff;
+      color: black;
     }
 
     label {
       display: block;
       margin-top: 15px;
       font-weight: bold;
+      color: black;
     }
 
     input {
@@ -41,8 +49,8 @@
       margin-top: 5px;
       border: none;
       border-radius: 8px;
-      background: rgba(255,255,255,0.8);
-      color: #333;
+      background: #fff;
+      color: black;
     }
 
     button {
@@ -53,7 +61,7 @@
       border: none;
       border-radius: 8px;
       font-weight: bold;
-      color: white;
+      color: black; /* teks tombol hitam */
       cursor: pointer;
       transition: background 0.3s ease;
     }
@@ -66,12 +74,17 @@
       margin-top: 20px;
       text-align: center;
       font-size: 1.2em;
-      color: #fff;
+      color: black;
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <div class="identitas">
+      <strong>Akmal Azka R.B.</strong><br>
+      NIM: 202411420035
+    </div>
+
     <h2>Integral - Kaidah Pias Persegi Panjang</h2>
     
     <label>Fungsi f(x):</label>
